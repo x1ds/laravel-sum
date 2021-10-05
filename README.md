@@ -26,13 +26,13 @@ Laravel uses Package Auto-Discovery, so doesn't require you to manually add the 
 
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
-```
+```php
 Nazububu\LaravelSum\SumServiceProvider::class,
 ```
 
 If you want to use the facade, add this to your facades in app.php:
 
-```
+```php
 'Sum' => Nazububu\LaravelSum\Facades\Sum::class,
 ```
 
