@@ -41,7 +41,8 @@ If you want to use the facade, add this to your facades in app.php:
 ```php
 use Nazububu\LaravelSum\Sum;
 
-echo Sum::handle(1, 1); // 2
+$sum = new Sum;
+echo $sum->calculate(1, 1); // 2
 ```
 
 ## Testing
