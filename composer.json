@@ -36,6 +36,16 @@
             "Nazububu\\LaravelSum\\Tests\\": "tests/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nazububu\\LaravelSum\\SumServiceProvider"
+            ],
+            "facades": [
+                "Nazububu\\LaravelSum\\Facades\\Sum"
+            ]
+        }
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
